@@ -127,6 +127,13 @@ export const router = [
   {
     path: '#/houses',
     controllers: HousesController,
-    view:
+    view: /*html*/`
+    <div class="card">
+      <div class="card-body">
+        <p>Homes Page</p>
+        <p>Can we see this text?</p>
+      </div>
+    </div>
+    `
   }
 ]
