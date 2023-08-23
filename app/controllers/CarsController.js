@@ -42,6 +42,7 @@ export class CarsController {
         }
         console.log('form data obj', formData)
 
+        // @ts-ignore
         formEvent.reset() // NOTE clears the form after submission
 
         carsService.createCar(formData)

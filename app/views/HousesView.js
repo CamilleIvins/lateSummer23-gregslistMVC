@@ -1,0 +1,14 @@
+export const HousesView = /*html*/`
+    <div class="container-fluid bg-white">
+        <div class="row py-3">
+            <div class="col-lg-12">
+                <p class="fs-3 align-items-center">
+                    This is the Houses Page
+                </p>
+            </div>
+        </div>
+        <div class="row" id="houses"></div>
+    </div>
+
+    <section class="row justify-content-center" id="houses"></section>
+`

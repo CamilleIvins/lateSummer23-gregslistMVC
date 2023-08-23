@@ -7,7 +7,7 @@ class HousesService {
 }
 
 
-export const housesService = new HousesService
+export const housesService = new HousesService()
 
 
 House
