@@ -1,14 +1,21 @@
 import { Car } from "./models/Car.js"
+import { House } from "./models/House.js"
 import { Value } from "./models/Value.js"
 import { EventEmitter } from "./utils/EventEmitter.js"
 import { isValidProp } from "./utils/isValidProp.js"
 import { loadState } from "./utils/Store.js"
+
 
 class ObservableAppState extends EventEmitter {
   page = ''
 
   /** @type {import('./models/Value.js').Value[]} */
   values = loadState('values', [Value])
+
+
+  houses = loadState('houses', [House])
+
+
 
 
   cars = loadState('cars', [Car])
